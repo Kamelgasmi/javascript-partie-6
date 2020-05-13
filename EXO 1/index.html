@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="FR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <title>EXO 1 PARTIE 6 JAVASCRIPT</title>
+    </head>
+    <body>
+        <script>
+            for (years=2020; years<=2030; years++){
+                if (((years & 3) == 0) && ((years % 100 != 0) || (years % 400 == 0))) {
+                    document.write("<p style='color:red'>"+ years + "</p> ")
+                }else {
+                    document.write('<p>'+ years + '</p>')
+                }
+            }
+        </script>
+    </body>
+</html>
